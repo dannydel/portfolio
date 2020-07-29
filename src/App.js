@@ -15,9 +15,8 @@ class App extends Component {
   };
 
   themeSwitcher(color) {
-    console.debug(color);
     if (color === undefined) {
-      this.setTheme('light');
+      this.setTheme('default');
     } else {
       this.setTheme(color);
     }
