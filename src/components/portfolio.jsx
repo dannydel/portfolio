@@ -12,7 +12,7 @@ class Portfolio extends Component {
               <div className='post'>
                 <img
                   className='thumbnail'
-                  srcSet='/images/reactdex.png'
+                  srcSet='/images/reactdex.PNG'
                   alt='react-pokedex'
                 />
                 <div className='post-preview'>
