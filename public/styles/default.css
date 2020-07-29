@@ -74,7 +74,7 @@ h4 {
 h5 {
   font-size: 20px;
 }
-h5 {
+h6 {
   font-size: 16px;
 }
 
@@ -121,6 +121,12 @@ h5 {
   grid-template-areas:
     'nav-wrapper nav-wrapper'
     'left-column right-column';
+}
+
+.intro-wrapper:hover {
+  -webkit-box-shadow: -2px 3px 13px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 3px 13px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: -2px 3px 13px -1px rgba(0, 0, 0, 0.75);
 }
 
 .nav-wrapper {
@@ -275,13 +281,14 @@ h5 {
 #preview-shadow {
   width: 300px;
   height: 150px;
-  padding-left: 30px;
-  padding-top: 30px;
+  padding-left: 15px;
+  padding-top: 15px;
   background-color: var(--previewShadow);
 }
 
 #preview {
   width: 300px;
+  height: 100%;
   border: 1.5px solid #17a2b8;
   position: relative;
   padding: 5px;
@@ -469,6 +476,7 @@ h5 {
   color: #fff;
   background-color: var(--buttonColor);
   border: none;
+  border-radius: 3px;
   outline: none;
   cursor: pointer;
 }
@@ -500,6 +508,53 @@ h5 {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .left-column {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .right-column {
+    width: 85%;
+    padding-top: 5px;
+    padding-bottom: 50px;
+  }
+
+  html,
+  body {
+    padding: 5;
+    margin: 5;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  h5 {
+    font-size: 14px;
+  }
+  h6 {
+    font-size: 9px;
+  }
+
+  #preview-shadow {
+    width: 85%;
+    margin-left: 10%;
+  }
+
+  #preview {
+    width: 100%;
+  }
+}
+
 #toast-container {
   visibility: hidden;
   min-width: 250px;
@@ -507,7 +562,7 @@ h5 {
   background-color: #333;
   color: #fff;
   text-align: center;
-  border-radius: 2px;
+  border-radius: 4px;
   padding: 16px;
   position: fixed;
   z-index: 1;

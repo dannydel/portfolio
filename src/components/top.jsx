@@ -76,7 +76,7 @@ class Top extends Component {
                   <div id='corner-tr' className='corner'></div>
                   <h3>What I do:</h3>
                   <p>
-                    I am a Philly based software developer and learning web
+                    I am a Philly based software developer and aspiring web
                     developer.
                   </p>
                   <div id='corner-bl' className='corner'></div>
