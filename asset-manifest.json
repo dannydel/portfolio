@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/dannydel/portfolio/static/js/main.d1415e50.chunk.js",
+    "main.js.map": "/dannydel/portfolio/static/js/main.d1415e50.chunk.js.map",
+    "runtime-main.js": "/dannydel/portfolio/static/js/runtime-main.fa465941.js",
+    "runtime-main.js.map": "/dannydel/portfolio/static/js/runtime-main.fa465941.js.map",
+    "static/js/2.c35d4a7b.chunk.js": "/dannydel/portfolio/static/js/2.c35d4a7b.chunk.js",
+    "static/js/2.c35d4a7b.chunk.js.map": "/dannydel/portfolio/static/js/2.c35d4a7b.chunk.js.map",
+    "index.html": "/dannydel/portfolio/index.html",
+    "precache-manifest.0cb9ed659c2350f997d0804263dd390d.js": "/dannydel/portfolio/precache-manifest.0cb9ed659c2350f997d0804263dd390d.js",
+    "service-worker.js": "/dannydel/portfolio/service-worker.js",
+    "static/js/2.c35d4a7b.chunk.js.LICENSE.txt": "/dannydel/portfolio/static/js/2.c35d4a7b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fa465941.js",
+    "static/js/2.c35d4a7b.chunk.js",
+    "static/js/main.d1415e50.chunk.js"
+  ]
+}
