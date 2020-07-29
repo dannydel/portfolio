@@ -54,32 +54,22 @@ class Contact extends Component {
 
           <form id='contact-form' onSubmit={this.onSubmit}>
             <label>Name</label>
-            <input
-              className='input-field'
-              type='text'
-              name='name'
-              //required
-            />
+            <input className='input-field' type='text' name='name' required />
             <label>Subject</label>
             <input
               className='input-field'
               type='text'
               name='subject'
-              // required
+              required
             />
             <label>Email</label>
-            <input
-              className='input-field'
-              type='email'
-              name='email'
-              //required
-            />
+            <input className='input-field' type='email' name='email' required />
             <label>Message</label>
             <textarea
               className='input-field'
               type='message'
               name='message'
-              //required
+              required
             ></textarea>
             <input id='submit-button' type='submit' value='Send'></input>
           </form>
