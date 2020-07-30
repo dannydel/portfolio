@@ -14,7 +14,12 @@ class Top extends Component {
       <section className='s1'>
         <div className='main-container'>
           <div className='greeting-wrapper'>
-            <h1>Hi, I'm Danny Del Grosso</h1>
+            <h1>
+              Hi, I'm Danny Del Grosso{' '}
+              <span role='img' aria-label='jsx-ally/accessible-emoji'>
+                &#x270C;
+              </span>
+            </h1>
           </div>
 
           <div className='intro-wrapper'>
@@ -67,14 +72,26 @@ class Top extends Component {
                   onClick={() => themeSwitchClick('purple')}
                 ></div>
               </div>
-              <p id='settings-note'>*Theme settings will be saved.</p>
+              <p id='settings-note'>
+                {' '}
+                <span role='img' aria-label='jsx-ally/accessible-emoji'>
+                  &#x2B50;
+                </span>{' '}
+                Theme settings will be saved.
+              </p>
             </div>
             <div className='right-column'>
               <div id='preview-shadow'>
                 <div id='preview'>
                   <div id='corner-tl' className='corner'></div>
                   <div id='corner-tr' className='corner'></div>
-                  <h3>What I do:</h3>
+                  <h3>
+                    What I do{' '}
+                    <span role='img' aria-label='jsx-ally/accessible-emoji'>
+                      &#x1F9D9;
+                    </span>
+                    :
+                  </h3>
                   <p>
                     I am a Philly based software developer and aspiring web
                     developer.

@@ -49,7 +49,10 @@ class Contact extends Component {
       <section className='s2'>
         <div className='main-container'>
           <h3 id='contact-start' className='text-center'>
-            Contact Me
+            Say Hey!{' '}
+            <span role='img' aria-label='jsx-ally/accessible-emoji'>
+              &#x1F44B;
+            </span>
           </h3>
 
           <form id='contact-form' onSubmit={this.onSubmit}>

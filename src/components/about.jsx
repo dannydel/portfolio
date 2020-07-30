@@ -14,7 +14,12 @@ class About extends Component {
                 out a new brewery/winery. I also enjoy staying active and
                 photography.
               </p>
-              <p>Philly philly!</p>
+              <p>
+                Philly philly!{' '}
+                <span role='img' aria-label='jsx-ally/accessible-emoji'>
+                  &#x1F919;
+                </span>
+              </p>
 
               <hr />
               <h4>What I am good at:</h4>
@@ -55,6 +60,7 @@ class About extends Component {
                 >
                   Build Portfolio site
                 </a>
+                .
               </p>
             </div>
 
@@ -64,7 +70,12 @@ class About extends Component {
                 alt='making friends'
                 srcSet='/images/making-friends.jpg'
               />
-              <p>* Making friends with locals.</p>
+              <p>
+                * Making friends with locals.{' '}
+                <span role='img' aria-label='jsx-ally/accessible-emoji'>
+                  &#x1F986;
+                </span>
+              </p>
               <h3> Find me at:</h3>
               <a
                 href='https://github.com/dannydel'
