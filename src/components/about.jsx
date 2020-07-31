@@ -28,7 +28,7 @@ class About extends Component {
                 Front-End development in React, HTML, and CSS.
                 <br />
                 <a
-                  href='/Images/Resume2020.pdf'
+                  href='https://github.com/dannydel/portfolio/blob/master/public/images/Resume2020.pdf'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
