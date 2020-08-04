@@ -1,6 +1,6 @@
 # Personal portfolio website
 
-Built with :heart: with:
+Built with :heart: using:
 
 - React
 - EmailJS
