@@ -28,7 +28,7 @@ class About extends Component {
                 Front-End development in React, HTML, and CSS.
                 <br />
                 <a
-                  href='https://github.com/dannydel/portfolio/blob/master/public/images/Resume2020.pdf'
+                  href='https://docs.google.com/document/d/1JeWAhBC9cbRK1fqdHePOGaK_eLfFw1AJz0dFqX4rzPU/edit?usp=sharing'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -48,7 +48,6 @@ class About extends Component {
                   <li>HTML/CSS</li>
                 </ul>
               </div>
-
               <p>
                 This fully responsive website is made from React, Express, and
                 Node.JS, EmailJs plus some neat little CSS tricks I've picked
@@ -63,7 +62,6 @@ class About extends Component {
                 .
               </p>
             </div>
-
             <div className='social-links'>
               <img
                 id='social-image'
