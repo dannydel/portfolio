@@ -10,9 +10,11 @@ class About extends Component {
             <div className='about-me'>
               <h4>More about me:</h4>
               <p>
-                In my free time you can find me either programming or checking
-                out a new brewery/winery. I also enjoy staying active and
-                photography.
+                I love my doggo Marcie who was adopted in October 20'.(Pictured
+                above) In my free time you can find me either programming,
+                working out/running, checking out a new brewery/winery, or
+                hanging with my wife and dog. I also dabble in some photography
+                here and there.
               </p>
               <p>
                 Philly philly!{' '}
@@ -45,6 +47,7 @@ class About extends Component {
                 <ul>
                   <li>JavaScript</li>
                   <li>React</li>
+                  <li>Vue3</li>
                   <li>HTML/CSS</li>
                 </ul>
               </div>

@@ -44,7 +44,7 @@ class Top extends Component {
               </ul>
             </div>
             <div className='left-column'>
-              <img id='profile-pic' srcSet='/images/me-small.jpg' alt='me' />
+              <img id='profile-pic' srcSet='/images/me.jpg' alt='me' />
               <h5 id='theme-tagline'>Set Theme</h5>
               <div id='theme-options-wrapper'>
                 <div

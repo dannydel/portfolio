@@ -6,7 +6,12 @@ class Contact extends Component {
   onSubmit = (e) => {
     e.preventDefault();
 
-    toast('success', 'WOOO!');
+    let somethingSuss = document.querySelector('#sussBox').checked;
+    if (somethingSuss) {
+      this.fakeRun();
+
+      return;
+    }
 
     emailjs
       .sendForm(
@@ -44,6 +49,13 @@ class Contact extends Component {
     });
   };
 
+  fakeRun() {
+    toast('success', 'Email sent successfull!');
+
+    //-- clear form
+    this.clearForm();
+  }
+
   render() {
     return (
       <section className='s2'>
@@ -75,6 +87,15 @@ class Contact extends Component {
               required
             ></textarea>
             <input id='submit-button' type='submit' value='Send'></input>
+            <div className='suss'>
+              <div className='suss-wall'></div>
+              <input
+                id='sussBox'
+                type='checkbox'
+                value='do you agree to these terms and conditions?'
+                className='suss-checkbox'
+              />
+            </div>
           </form>
           <Toaster />
         </div>

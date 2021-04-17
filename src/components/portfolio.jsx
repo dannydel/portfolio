@@ -11,6 +11,38 @@ class Portfolio extends Component {
             <div>
               <div className='post'>
                 <img
+                  className='thumbnail object-fit-unset'
+                  srcSet='/images/becalm.PNG'
+                  alt='becalm-app'
+                />
+                <div className='post-preview'>
+                  <h5 className='post-title'>Becalm</h5>
+                  <p className='post-intro'>
+                    Created a mindful breathing app using React and Node.js.
+                    Hosted on{' '}
+                    <a
+                      href='https://surge.sh/'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      surge.sh
+                    </a>
+                    .
+                  </p>
+                  <a
+                    href='https://becalm.surge.sh'
+                    target='_blank'
+                    className='href'
+                    rel='noopener noreferrer'
+                  >
+                    Check it out here!
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className='post'>
+                <img
                   className='thumbnail'
                   srcSet='/images/reactdex.PNG'
                   alt='react-pokedex'
