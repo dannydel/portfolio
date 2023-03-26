@@ -92,10 +92,7 @@ class Top extends Component {
                     </span>
                     :
                   </h3>
-                  <p>
-                    I am a Philly based software developer and aspiring web
-                    developer.
-                  </p>
+                  <p>Senior Software Engineer</p>
                   <div id='corner-bl' className='corner'></div>
                   <div id='corner-br' className='corner'></div>
                 </div>

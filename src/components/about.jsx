@@ -10,27 +10,31 @@ class About extends Component {
             <div className='about-me'>
               <h4>More about me:</h4>
               <p>
-                I love my doggo Marcie who was adopted in October 20'.(Pictured
-                above) In my free time you can find me either programming,
-                working out/running, checking out a new brewery/winery, or
-                hanging with my wife and dog. I also dabble in some photography
-                here and there.
+                I'm Senior Software Engineer with 6+ years of experience
+                building and maintaining web based applications. Outside of my
+                job I really enjoy everything to do with coffee (check below for
+                my coffee setup!), exercise is a huge part of my life and also
+                enjoying time with my beautiful wife and dog.
               </p>
               <p>
-                Philly philly!{' '}
-                <span role='img' aria-label='jsx-ally/accessible-emoji'>
-                  &#x1F919;
-                </span>
+                Current Coffee Nerd Setup 2 ☕:
+                <ul>
+                  <li>Fellow Ode 2</li>
+                  <li>Fellow Stagg</li>
+                  <li>AeroPress</li>
+                </ul>
               </p>
 
               <hr />
               <h4>What I am good at:</h4>
               <p>
-                Primarily a C# back-end developer for Deacom Inc. But enjoys
-                Front-End development in React, HTML, and CSS.
+                Being a senior software engineer, I have used many different
+                technologies but my favorite so far has been C#, .NET7, and
+                Blazor. But I am casual enjoyer of React, Vue, and Vanilla
+                JavaScript.
                 <br />
                 <a
-                  href='https://docs.google.com/document/d/1JeWAhBC9cbRK1fqdHePOGaK_eLfFw1AJz0dFqX4rzPU/edit?usp=sharing'
+                  href='https://drive.google.com/drive/folders/1_keZFf2JFgtYUUXPLBcPyE8xvDiHRZMY?ths=true'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -40,9 +44,10 @@ class About extends Component {
               <div id='skills'>
                 <ul>
                   <li>C#</li>
-                  <li>MSSQL</li>
-                  <li>MVC</li>
-                  <li>NET Core</li>
+                  <li>NET 7</li>
+                  <li>Blazor - WASM & Server</li>
+                  <li>NET Web API</li>
+                  <li>Azure</li>
                 </ul>
                 <ul>
                   <li>JavaScript</li>
@@ -51,19 +56,6 @@ class About extends Component {
                   <li>HTML/CSS</li>
                 </ul>
               </div>
-              <p>
-                This fully responsive website is made from React, Express, and
-                Node.JS, EmailJs plus some neat little CSS tricks I've picked
-                up. Learned to make this template by Dennis Ivy{' '}
-                <a
-                  href='https://youtu.be/r_hYR53r61M'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  Build Portfolio site
-                </a>
-                .
-              </p>
             </div>
             <div className='social-links'>
               <img
